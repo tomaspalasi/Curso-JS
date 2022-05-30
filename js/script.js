@@ -46,7 +46,7 @@ while(repetir2){
     let cantidad = parseInt (prompt("¿Cuantas remeras querés comprar?"))
     let stock = 20
     let resultado = stock - cantidad;
-    if (cantidad >=20){
+    if (cantidad >=21){
         alert ("No tenemos esa cantidad");
     } else {
         repetir2 = false
